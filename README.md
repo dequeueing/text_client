@@ -29,10 +29,10 @@ Once the Python environment is set up, you can run the server.
 
 You can start the chat server with:
     ```bash
-    poetry run python text_client/nlip_client.py 
+    poetry run python text_client/nlip_text_client.py 
     ```
 
 To see the command line options and help use: 
     ```bash
-    poetry run python text_client/nlip_client.py -h
+    poetry run python text_client/nlip_text_client.py -h
     ```
