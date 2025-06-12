@@ -12,6 +12,9 @@ class NLIP_PlainClient(CoreChatClient):
         try:
             nlip_message = NLIP_Factory.create_text(message)
             
+            print("nlip_message:")
+            print(nlip_message)
+            
             if self.conv is not None:
                 nlip_message.add_conversation_token(self.conv)
             nlip_response = self.client.send(nlip_message)
